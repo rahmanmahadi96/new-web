@@ -75,7 +75,7 @@ p{
 .secondpart{
     display: flex;
     margin-bottom: 50px;
-    background-image: url(img/sec2back.jpg);
+    background-image: url(image/sec2back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -144,7 +144,7 @@ p{
 
 .sixthpart{
     text-align: center;
-    background-image: url(img/bg.jpg);
+    background-image: url(image/bg.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 15px;
