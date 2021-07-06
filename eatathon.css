@@ -1,0 +1,171 @@
+*{
+    font-family: 'Roboto Slab', serif ;
+    color: rgb(38, 44, 44);
+}
+
+header{
+    background-color: rgb(25, 51, 68);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: auto 2px;
+}
+
+ul li {
+    display: inline-block; 
+}
+
+
+ul li a{
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    color:rgb(248, 247, 247);
+    margin-top: 11px;
+    font-size: 1.2em;
+
+}
+ul li a:hover{
+    background-color: black;
+    color: white;
+    font-size: 1.3em;
+}
+
+
+.firstpart{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.half-width{
+    width: 50%;
+    padding: 15px;
+    font-size: 1.7em;
+    margin: 11px;
+}
+
+p{
+    color: rgb(78, 67, 67);
+}
+
+.half-width a{
+    background-color: rgb(58, 139, 245);
+    padding: 12px;
+    border-radius: 16px;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.blue{
+    color: rgb(58, 139, 245);
+    font-size: 1.3em;
+}
+
+.half-width img{
+    width: 80%;
+}
+
+
+.secondpart{
+    display: flex;
+    margin-bottom: 50px;
+    background-image: url(sec2back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thirdpart, .fifthpart{
+    margin: 50px;
+}
+
+.card-top{
+    text-align: center;
+    font-size: 1.4em;
+    margin: 5px 20px;
+}
+
+.container{
+    display: flex;
+}
+
+.onethird{
+    width: 28%;
+    margin: 3%;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 3px 3px 3px;
+    border-radius: 17px;
+}
+
+.onethird img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.fourthpart{
+    display: flex;
+    width: 84%;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 3px;
+    border-radius: 17px;
+    
+}
+
+.inner1{
+    width: 28%;
+    margin: 3%;
+    align-items: center;
+    padding: 15px;
+}
+
+.onethird2{
+    width: 28%;
+    margin: 3%;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 3px 3px 3px;
+    border-radius: 17px;
+    text-align: center;
+}
+
+.onethird2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.sixthpart{
+    text-align: center;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+.form{
+    margin: 20px;
+}
+
+.marg{
+    margin: 10px;
+}
+
+.seventhpart{
+    display: flex;
+    font-size: 0.6em;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(25, 51, 68);
+    font-size: 1.1em;
+    padding: 8px;
+}
